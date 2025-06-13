@@ -1447,7 +1447,7 @@
       <field type="uint8_t" name="mount_mode" enum="MAV_MOUNT_MODE">Mount operating mode.</field>
     </message>
     <!-- Strain sensor messages -->
-    <message id="159" name = "STRAIN_SENSOR">
+    <message id="12001" name = "STRAIN_SENSOR">
       <description>Message with average strain values from each of the four arms.</description>
       <field type="uint32_t" name="time_boot_ms" units="ms">Timestamp (time since system boot).</field>
       <field type="uint8_t" name="sensor_id">Strain sensor ID (allows for multiple sensors).</field>
