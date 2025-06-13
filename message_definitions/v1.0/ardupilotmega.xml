@@ -1612,7 +1612,6 @@
       <field type="float" name="altitude" units="m">Altitude (MSL).</field>
       <field type="int32_t" name="lat" units="degE7">Latitude.</field>
       <field type="int32_t" name="lng" units="degE7">Longitude.</field>
-      <field type="float" name="strain" units="n/a">Current strain measurement.</field>
     </message>
     <!-- camera event message from CCB to autopilot: for image trigger events but also things like heartbeat, error, low power, full card, etc -->
     <message id="179" name="CAMERA_STATUS">
