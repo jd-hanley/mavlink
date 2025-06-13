@@ -4826,7 +4826,6 @@
       <field type="uint16_t" name="throttle" units="%">Current throttle setting (0 to 100).</field>
       <field type="float" name="alt" units="m">Current altitude (MSL).</field>
       <field type="float" name="climb" units="m/s">Current climb rate.</field>
-      <field type="float" name="strain" units="n/a">Current strain measurement.</field>
     </message>
     <message id="75" name="COMMAND_INT">
       <description>Message encoding a command with parameters as scaled integers. Scaling depends on the actual command value. The command microservice is documented at https://mavlink.io/en/services/command.html</description>
